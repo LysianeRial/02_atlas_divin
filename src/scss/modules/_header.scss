@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 12px;
+  background: var(--Background-components, #bcbfc3);
+}
+
+@media (min-width: 992px) {
+  .header {
+    padding: 20px 80px;
+  }
+}
+
+.header-logo {
+  color: var(--Text-secondary, #000);
+  font-family: "Caesar Dressing";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
