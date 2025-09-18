@@ -12,3 +12,35 @@ img,
 video {
   display: block;
 }
+
+html {
+  --Red: #f82727;
+  --Background: #fff;
+  --color-text-main: #000;
+  --Yellow: #f7f43e;
+  --Green: #12965d;
+  --Blue: #279ef8;
+  --Headerfooter: #bcbfc3;
+  --Text-secondary: #000;
+  --Text-main: #515050;
+}
+
+html[data-theme="dark"] {
+  --Red: #f8a7a7;
+  --Background: #515050;
+  --color-text-main: #fff;
+  --Yellow: #f7f43e;
+  --Green: #76e5b5;
+  --Blue: #a3d7ff;
+  --Headerfooter: #696a6c;
+  --Text-secondary: #ffffff;
+  --Text-main: #ffffff;
+}
+
+html[data-theme="light"] #light-mode-btn {
+  display: none;
+}
+
+html[data-theme="dark"] #dark-mode-btn {
+  display: none;
+}

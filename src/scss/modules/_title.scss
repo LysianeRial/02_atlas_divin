@@ -5,4 +5,13 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-top: 20px;
+  padding-bottom: 24px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+  .title {
+    margin-bottom: 40px;
+  }
 }

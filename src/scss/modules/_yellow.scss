@@ -1,0 +1,40 @@
+.yellow {
+  border-radius: 8px;
+  background: var(--Background, #fff);
+  display: flex;
+  flex-direction: column;
+  border: 2px solid var(--Yellow, #f8af27);
+  margin-top: 12px;
+  overflow: hidden;
+}
+
+.yellow-title {
+  color: var(--Yellow, #f8af27);
+  position: absolute;
+  font-family: "Caesar Dressing";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: var(--Background, #fff);
+  display: flex;
+  padding: 8px 12px;
+  align-items: flex-start;
+}
+
+.yellow .img {
+  height: 216px;
+  object-fit: cover;
+}
+
+@media (min-width: 992px) {
+  .yellow {
+    margin-top: 20px;
+  }
+  .yellow .img {
+    height: auto;
+  }
+}

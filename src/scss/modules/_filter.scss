@@ -1,0 +1,85 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+  padding-top: 32px;
+}
+
+.filter-populaire {
+  color: var(--Text-main, #515050);
+  font-family: "Bubbler One";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.filter-grec {
+  color: var(--Background, #fff);
+  font-family: "Caesar Dressing";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  padding: 12px 8px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: var(--Blue, #279ef8);
+  justify-content: space-between;
+}
+
+.filter-egyptien {
+  color: var(--Background, #fff);
+  font-family: "Caesar Dressing";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  padding: 12px 8px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: var(--Yellow, #f8af27);
+  justify-content: space-between;
+}
+
+.filter-nordique {
+  color: var(--Background, #fff);
+  font-family: "Caesar Dressing";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  padding: 12px 8px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: var(--Green, #12965d);
+  justify-content: space-between;
+}
+
+.filter-romain {
+  color: var(--Background, #fff);
+  font-family: "Caesar Dressing";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  padding: 12px 8px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: var(--Red, #f82727);
+  justify-content: space-between;
+}
