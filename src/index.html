@@ -22,7 +22,7 @@
     <div class="header-header">
       <header class="header">
         <div class="header-logo">Atlas Divin</div>
-        <button class="header-burger">
+        <button class="header-burger" onclick="toggleMenu()">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -183,7 +183,7 @@
           </button>
         </div>
       </header>
-      <div class="header-menu">
+      <div id="hidden-links" class="header-menu" onclick="toggleMenu()">
         <div class="header-menu-text">
           <p>Mes favoris</p>
           <p>Dieu du jour</p>

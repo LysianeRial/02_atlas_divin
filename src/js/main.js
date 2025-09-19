@@ -1,3 +1,10 @@
+function toggleMenu() {
+  var menu = document.getElementById("hidden-links");
+  menu.classList.toggle("active");
+}
+
+window.toggleMenu = toggleMenu;
+
 // On commence par créer deux variables JavaScript,
 // pour sélectionner chacune un des deux boutons (light et dark)
 const toggleDarkModeBtn = document.querySelector("#dark-mode-btn");
@@ -16,12 +23,3 @@ toggleLightModeBtn.addEventListener("click", function () {
   // l'attribut data-theme de la balise <html> prenne pour valeur "light"
   document.querySelector("html").setAttribute("data-theme", "light");
 });
-
-var headerMenu = document.querySelector(".header-menu");
-var burger = document.querySelector(".header-burger");
-
-function toggle() {
-  headerMenu.classList.toggle("toggle");
-}
-
-burger.addEventListener("click", toggle);
