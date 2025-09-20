@@ -1,5 +1,5 @@
 function toggleMenu() {
-  var menu = document.getElementById("hidden-links");
+  var menu = document.getElementById("header-liens");
   menu.classList.toggle("active");
 }
 
