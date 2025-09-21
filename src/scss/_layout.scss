@@ -2,3 +2,19 @@
   color: var(--color-text-main);
   background: var(--Background);
 }
+
+.l-main {
+  margin-top: 90px;
+}
+
+@media (min-width: 992px) {
+  .l-main {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .l-main {
+    margin-top: 0;
+  }
+}
