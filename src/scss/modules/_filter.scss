@@ -4,17 +4,18 @@
   align-items: flex-start;
   gap: 12px;
   align-self: stretch;
-  padding-top: 32px;
+
   padding-bottom: 40px;
+  position: sticky;
+  top: 20px;
+  align-self: start;
 }
 
-.filter-populaire {
-  color: var(--Text-main, #515050);
-  font-family: "Bubbler One";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+@media (max-width: 992px) {
+  .filter {
+    position: static;
+    padding-top: 32px;
+  }
 }
 
 .filter-grec {
@@ -83,4 +84,13 @@
   border-radius: 8px;
   background: var(--Red, #f82727);
   justify-content: space-between;
+}
+
+.filter-populaire {
+  color: var(--Text-main, #515050);
+  font-family: "Bubbler One";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
