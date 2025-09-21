@@ -1,8 +1,11 @@
 .header {
+  background: var(--Headerfooter);
+}
+
+.header-header .header-logo-burger {
   display: flex;
   justify-content: space-between;
   padding: 20px 12px;
-  background: var(--Headerfooter);
 }
 
 .header-header #header-liens {
@@ -12,7 +15,6 @@
 
 .header-header #header-liens.active {
   display: flex;
-
   min-width: 100vw;
   border-top: 1px solid var(--Text-secondary, #000);
   background: var(--Headerfooter);
@@ -23,7 +25,10 @@
 
 @media (min-width: 992px) {
   .header {
-    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
   }
 }
 
@@ -66,7 +71,6 @@
   margin: 0; /* enlève l’espace externe */
   cursor: pointer;
   display: none;
-  margin-top: 15px;
 }
 
 .header-liens {
@@ -123,6 +127,7 @@
 @media (max-width: 576px) {
   .header-burger {
     display: flex;
+    margin-top: 10px;
   }
 
   .header-header #header-liens.active {
@@ -144,6 +149,5 @@
 .header-menu-text {
   display: flex;
   width: 369px;
-
   gap: 16px;
 }
